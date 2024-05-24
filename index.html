@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vocabulary Learning Interface</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="readingSection">
+    <h1>Learn Vocabulary in Reading English</h1>
+    <h2>Reading Section</h2>
+    <p>Select any word in the paragraph below and click "Add to Vocabulary" to save it to your list.</p>
+    <!-- <p>Learning new vocabulary is essential for improving your language skills. Practice regularly and make use of new words in sentences.</p> -->
+    <p>
+      <input type="file" id="file-input" accept=".txt">
+      <input type="text" id="urlInput" placeholder="Paste URL here" size="80">
+      <button id="loadUrlButton" class="button">Load Content</button>
+    </p>
+    <!-- <div id="content" class="hidden"></div> -->
+    <div id="error" class="hidden error"></div>
+    <div id="readingParagraph">
+      <p>Learning new vocabulary is essential for improving your language skills. Practice regularly and make use of new words in sentences.</p>
+    </div>
+  </div>
+
+  <div id="vocabularySection">
+    <h2>Vocabulary List</h2>
+    <button id="loadButton" class="button">LOAD FILE</button>
+    <button id="saveButton" class="button">SAVE FILE</button>
+    <br><br><br>
+    <input type="text" id="vocabWord" placeholder="New word">
+    <input type="text" id="vocabMeaning" placeholder="Meaning">
+    <button id="addButton" class="button">Add</button>
+    <ul id="vocabList"></ul>
+  </div>
+
+  <div id="customMenu">
+    <ul>
+      <li id="addVocabOption">Add to Vocabulary</li>
+      <li id="highlightOption">Highlight</li>
+      <li id="removeHighlightOption">Remove Highlight</li>
+      <li id="deleteSeletedOption">Delete Selected</li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

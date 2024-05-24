@@ -1,0 +1,158 @@
+/*https://www.w3schools.com/tags/ref_colornames.asp*/
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#content {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  white-space: pre-wrap; /* Preserve whitespace and formatting */
+}
+/*.hidden {
+    display: none;
+}*/
+.error {
+  color: red;
+}
+
+.button {
+  cursor: pointer;
+  background-color: lightskyblue;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+/*  margin: 20px;*/
+padding: 5px;
+}
+
+#file-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#urlInput{
+/*background-color: lightskyblue;*/
+border: 1px solid #ccc;
+border-radius: 5px;
+/*  font-size: 120%;*/
+}
+
+.remove-btn {
+  cursor: pointer;
+  color: red;
+/*  margin-left: 10px;*/
+font-size: 80%;
+text-align: center;
+vertical-align: middle;
+}
+
+/*#addButton {
+  cursor: pointer;
+  background-color: lightskyblue;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 5px;
+}
+
+#saveButton {
+  cursor: pointer;
+  background-color: lightskyblue;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 5px;
+}*/
+
+#readingSection {
+  flex: 5;
+/*flex: 60%;*/
+margin: 20px;
+position: relative;
+
+}
+
+#readingParagraph {
+  line-height: 150%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#vocabularySection {
+  flex: 2.2;
+/*  flex: 25%;*/
+margin: 20px;
+padding: 20px;
+border-left: 2px solid #ccc;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+/*.vocab-word {
+  background-color: yellow;
+color: blue;
+}*/
+
+.selected {
+/*  background-color: cyan; aqua ; deepskyblue ; lightskyblue ; skyblue ; blue */
+background-color: lightskyblue;
+}
+
+.editable {
+  cursor: pointer;
+/*  text-decoration: underline;*/
+color: blue;
+/*  font-size: 12px;*/
+font-size: 95%;
+}
+
+#vocabList {
+  list-style-type: none;
+  padding: 0;
+
+/*  text-align: center;*/
+/*  vertical-align: middle;*/
+}
+
+#vocabList li {
+  margin: 5px 0;
+/*  vertical-align: middle;*/
+}
+
+#customMenu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px 25px; /* border-radius */
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+#customMenu ul {
+  list-style-type: none;
+  padding: 5px 0;
+  margin: 0;
+}
+
+#customMenu ul li {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 10px; /* border-radius for li:hover */
+}
+
+#customMenu ul li:hover {
+  background-color: lightskyblue;
+}
+
+.border {
+  border: 1px solid blue;
+}
