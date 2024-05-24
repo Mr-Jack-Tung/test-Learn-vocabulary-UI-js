@@ -5,8 +5,7 @@
 ![alt-text](https://github.com/Mr-Jack-Tung/test-Learn-vocabulary-UI-js/blob/main/Screenshot-02_2024-05-24.jpg)
 
 - nếu bạn muốn tìm hiểu thêm về fullstack thì có thể tìm hiểu ở đây nhé https://www.w3schools.com/whatis/whatis_fullstack.asp
- - Client Software
-(Front-end)
+  - Client Software (Front-end):
 HTML
 CSS
 Bootstrap
@@ -28,8 +27,7 @@ Meteor.js
 Grunt
 Gulp
 
- - Server Software
-(Back-end)
+  - Server Software (Back-end):
 PHP
 ASP
 C++
