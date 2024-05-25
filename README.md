@@ -2,7 +2,7 @@
 - Author: Mr. Jack Tùng & ChatGPT 3.5 free
 - Date: 24 May 2024
 
-- học lại HTML, CSS, Javascript sau 20 năm ^^ nhờ có ChatGPT nên việc ôn tập chỉ cần có vài giờ, lâu thì vài ngày thôi nhé :D
+~> Học lại HTML, CSS, Javascript sau 20 năm ^^ may là nhờ có ChatGPT nên việc ôn tập chỉ cần có vài giờ, lâu thì vài ngày thôi nhé :D
 
 ![alt-text](https://github.com/Mr-Jack-Tung/test-Learn-vocabulary-UI-js/blob/main/Screenshot-02_2024-05-24.jpg)
 
